@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+            <h1 class="header">
+              API Basejump: <a href="https://www.freecodecamp.org/challenges/image-search-abstraction-layer" target="_blank">Image Search Abstraction Layer</a>
+            </h1>
+        
+            <p>
+                By <a href="https://www.freecodecamp.org/amimaro" target="_blank">Amimaro</a>
+            </p>
+            <hr />
+        
+            <blockquote>
+                User stories:
+                <ul>1) I can get the image URLs, alt text and page urls for a set of images relating to a given search string.</ul>
+                <ul>2) I can paginate through the responses by adding a ?offset=2 parameter to the URL.</ul>
+                <ul>3) I can get a list of the most recently submitted search strings.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <code>https://fcc-api-4.glitch.me/api/imagesearch/lolcats%20funny?offset=10</code><br>
+            <code>https://fcc-api-4.glitch.me/api/latest/imagesearch</code>
+            <h3>Example output - search:</h3>
+            <code>
+                { { snippet: "", url: "", context: "", thumbnail: "" } ... }
+            </code>
+            <h3>Example output - latest:</h3>
+            <code>
+                { { term: "", when: "" } ... }
+            </code>
+        
+      </div>
+   </body>
+
+</html>
