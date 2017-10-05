@@ -11,7 +11,7 @@ https://fcc-api-4.glitch.me/api/latest/imagesearch
 ```
 ## Example output - search:
 ```json
-{ "0": { "snippet": "", "url": "", "context": "", "thumbnail": "" } }
+[ { "snippet": "", "url": "", "context": "", "thumbnail": "" } ]
 ```
 
 ## Example output - latest:
