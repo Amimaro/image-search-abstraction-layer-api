@@ -16,5 +16,6 @@ https://fcc-api-4.glitch.me/api/latest/imagesearch
 
 ## Example output - latest:
 ```json
-{ "0": { "term": "", "when": "" } }
+[ { "term": "", "when": "" } ] 
 ```
+
